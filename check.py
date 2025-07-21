@@ -47,7 +47,7 @@ def main():
      for url in urls:
         check_availability(url)
         print("Waiting 60 seconds before next check...")
-        time.sleep(6)
+        time.sleep(60)
 
 if __name__ == "__main__":
     main()
