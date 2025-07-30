@@ -7,6 +7,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+print(f"Chat Id found: {CHAT_ID}")
 
 def check_availability(product_url):
     try:
